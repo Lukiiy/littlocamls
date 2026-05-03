@@ -1,4 +1,5 @@
 main
 palindrome
+factorial
 *.cmi
 *.cmo
