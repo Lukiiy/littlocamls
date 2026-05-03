@@ -3,3 +3,5 @@ palindrome
 factorial
 *.cmi
 *.cmo
+*.o
+*.cmx
