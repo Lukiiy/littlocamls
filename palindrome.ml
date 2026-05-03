@@ -13,7 +13,7 @@ let is_palindrome s =
   let rec loop x y =
     if x >= y then true (* all letters matched, true *)
     else if string.[x] <> string.[y] then false (* if chars diff, false *)
-    else loop (x + 1) (y - 1) (* get letters *)
+    else loop (x + 1) (y - 1) (* next letters *)
   in
 
   loop 0 (String.length string - 1)
