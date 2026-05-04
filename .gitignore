@@ -1,6 +1,7 @@
 fizzbuzz
 palindrome
 factorial
+password
 *.cmi
 *.cmo
 *.o
